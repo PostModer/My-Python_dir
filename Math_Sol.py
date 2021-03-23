@@ -6,5 +6,5 @@ def Math_Sol(x):
         a = math.tan(x)
         b = math.exp(math.cos(x))
         y = (a + math.sin(b) ** 2 - math.log(x + 1)) / x
-    return y
-print(Math_Sol(4))
+        return y
+print(Math_Sol(1))
